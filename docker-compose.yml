@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  xplane-plugin-builder:
+    image: xplane-plugin-builder
+    volumes:
+      - .:/usr/src/app
